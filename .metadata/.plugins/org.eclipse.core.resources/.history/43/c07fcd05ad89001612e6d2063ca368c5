@@ -1,0 +1,23 @@
+package jsonextender;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+import com.thoughtworks.xstream.annotations.XStreamImplicit;
+
+
+
+@XStreamAlias("services") 
+public class Services {
+	@XStreamImplicit
+	private List<Service> services = new ArrayList<>();
+
+	public List<Service> getServices() {
+		return services;
+	}
+
+	public void setServices(List<Service> services) {
+		this.services = services;
+	}		
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;quickchat/src/main/resources&apos;&#x0A;- Original project: &apos;quickchat&apos;&#x0A;- Destination element: &apos;quickchat/src/main/resources&apos;&#x0A;- Original elements:&#x0A;     controller.js&#x0A;     module.js&#x0A;     index.html&#x0A;- Update references to refactored element" description="Move files" destination="/src\/main\/resources" element1="src/test/resources/controller.js" element2="src/test/resources/module.js" element3="src/test/resources/index.html" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1472502276669" units="0" version="1.0"/>
+</session>

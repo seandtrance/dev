@@ -1,0 +1,8 @@
+package service;
+
+public class MessagesService {
+	public String getHelloMessage()
+	{
+		return "hello";
+	}
+}

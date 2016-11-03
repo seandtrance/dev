@@ -1,0 +1,5 @@
+package mavenplugindemo;
+
+public class GreetingMojo {
+
+}

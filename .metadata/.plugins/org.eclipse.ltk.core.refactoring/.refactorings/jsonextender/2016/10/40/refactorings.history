@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;jsonextender.Test.java&apos; to &apos;SwaggerJsonExtenderTest.java&apos;&#x0A;- Original project: &apos;jsonextender&apos;&#x0A;- Original element: &apos;jsonextender.Test.java&apos;&#x0A;- Renamed element: &apos;jsonextender.SwaggerJsonExtenderTest.java&apos;" description="Rename compilation unit &apos;Test.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/test\/java&lt;jsonextender{Test.java" name="SwaggerJsonExtenderTest.java" references="false" stamp="1475527086113" version="1.0"/>
+</session>

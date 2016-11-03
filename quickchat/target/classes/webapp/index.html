@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+
+<body>
+	<div class="container" ng-app="module" ng-controller="controller">
+		<div class="row">
+			 <div class="col-lg-4"></div>
+			 <div class="col-lg-4">
+				<button type="button" class="btn btn-default" ng-click="getMessage()">Get message</button>
+				<p>{{response.respmessage}}</p>
+			 </div>
+			 <div class="col-lg-4">
+			 	 <label for="usr">Name:</label>
+  				 <input type="text" class="form-control" id="usr" ng-model="request.name" required>
+  				 <button type="button" class="btn btn-default" ng-click="getHelloMessage({{request.name}})">Hello message</button>
+			 	<p>{{response.resphellomessage}}</p>
+			 </div>
+		 </div>
+	</div>
+
+	<script src="module.js"></script>
+	<script src="controller.js"></script>
+
+</body>
+</html>                                        

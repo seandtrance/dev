@@ -1,0 +1,20 @@
+package configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+
+import service.MessagesService;
+
+@Configuration
+public class BeanFactory {
+	@Bean(name="messagesService")
+	public MessagesService messagesService() {
+		return new MessagesService();
+	}
+	
+	@Bean
+    public static PropertySourcesPlaceholderConfigurer placeholderConfigurer() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }
+}
